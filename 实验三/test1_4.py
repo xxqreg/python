@@ -1,3 +1,3 @@
-def stretch(self,ys,ts):
-    self.scale(ys)
-    self.shift(ts)
+def stretch(wave, factor):
+    wave.ts *= factor
+    wave.framerate /= factor
