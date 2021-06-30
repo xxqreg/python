@@ -39,6 +39,7 @@ wave2.make_audio()
 wave = wave1 | wave2
 wave.make_audio()
 
+
 sp = wave.make_spectrogram(1024)
 sp.plot(high=1000)
 decorate(xlabel='Time (s)', ylabel='Frequency (Hz)')
